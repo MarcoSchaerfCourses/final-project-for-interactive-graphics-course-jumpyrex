@@ -1,0 +1,133 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+    <!---->
+<!--</head>-->
+<!--<body>-->
+<!--</body>-->
+<!--<script type="text/javascript">-->
+    <!--console.log("lol");-->
+<!--//    try{-->
+<!--//        prova();-->
+<!--//    }catch(err){-->
+<!--//        console.log(err);-->
+<!--//    }-->
+<!--</script>-->
+<!--</html>-->
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="lib/three.js"></script>
+    <script src="JumpyRex.js"></script>
+    <style>
+        #overlay {
+            position: fixed;
+            display: none;
+            width: 1024px;
+            height: 512px;
+            top: 8px;
+            left: 9px;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,155,0,0.5);
+            z-index: 2;
+        }
+
+        #pts_area {
+            position: fixed;
+            width: 700px;
+            height: 100px;
+            top: 16px;
+            left: 700px;
+            right: 0;
+            bottom: 0;
+            color: rgba(0,200,0,1);
+            z-index: 2;
+            font-size: 48px;
+            -webkit-text-stroke: 1px black;
+        }
+
+        #menuOverlay {
+            position: fixed;
+            display: none;
+            width: 1024px;
+            height: 512px;
+            top: 8px;
+            left: 9px;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0,155,0,1);
+            background-image: url("textures/DIno7402.jpg");
+            z-index: 2;
+        }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            /*background: #1abc9c;*/
+            color: white;
+            font-size: 30px;
+        }
+
+        .yesbtn {
+            color: lawngreen;
+            background-color: darkgreen;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 48px;
+            cursor: pointer;
+            font-family: "Lucida Console", sans-serif;
+        }
+
+        .nobtn {
+            color: red;
+            background-color: darkred;
+            border: none;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 48px;
+            cursor: pointer;
+            font-family: "Lucida Console", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="pts_area">
+        <div style="display: inline-block;font-family: 'Lucida Console', sans-serif">POINTS: </div>
+        <div style="display: inline-block;font-family: 'Lucida Console', sans-serif" id="pts">0</div>
+    </div>
+    <div id="overlay">
+        <div class="header">
+            <h1 style="font-family: 'Lucida Console', sans-serif">Ouch.</h1>
+            <p style="font-family: 'Lucida Console', sans-serif">Wanna try again?</p>
+        </div>
+        <div class="header">
+            <button class="nobtn" onclick="go2Menu()">ENOUGH.</button>
+            <button class="yesbtn" onclick="off()">YES!</button>
+        </div>
+    </div>
+    <div id="menuOverlay">
+        <div class="header">
+            <h1 class="yesbtn">JumpyRex</h1>
+            <br>
+            <p class="yesbtn">Avoid those obstacles, T-Dog!</p>
+            <br>
+            <button class="yesbtn" onclick="startGame()">
+                PLAY!
+            </button>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    showMenu();
+//    initAll();
+    // Schedule the first frame.
+</script>
+</html>
