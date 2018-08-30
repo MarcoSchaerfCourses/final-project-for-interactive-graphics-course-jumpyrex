@@ -249,6 +249,10 @@ function showMenu(){
     document.getElementById("menuOverlay").style.display = "block";
 }
 
+function showColor(){
+    document.getElementById("colorOverlay").style.display = "block";
+}
+
 function go2Menu(){
     destroyScene();
     showMenu();
@@ -257,12 +261,20 @@ function go2Menu(){
 
 function hideMenu(){
     document.getElementById("menuOverlay").style.display = "none";
+    document.getElementById("colorOverlay").style.display = "none";
 }
 
 function startGame(){
     hideMenu();
     initAll();
     requestAnimationFrame(update);
+}
+
+var rexColors = ["reptile_skin_2.jpg", "reptile_skin_2_orange.jpg", "reptile_skin_2_purple.jpg", "reptile_skin_2_blue.jpg"];
+var selected_rex_color = rexColors[0];
+function setRexColor(index){
+    selected_rex_color = rexColors[index];
+    console.log(selected_rex_color);
 }
 
 function on() {
@@ -385,7 +397,7 @@ texture_skin.repeat.set(1,1);
 var texture_feather = new THREE.TextureLoader().load('textures/feather2.jpg');
 texture_skin.repeat.set(1,1);
 
-const bosomMaterial =
+var bosomMaterial =
     new THREE.MeshLambertMaterial({map: texture_skin});
 
 const eyeMaterial =
@@ -412,6 +424,13 @@ function deg2rad(deg){
 
 function initRex(){
     // Set up the bosom vars
+
+    texture_skin = new THREE.TextureLoader().load('textures/'+selected_rex_color);
+    texture_skin.repeat.set(1,1);
+
+    bosomMaterial =
+        new THREE.MeshLambertMaterial({map: texture_skin});
+
     const RADIUS = 25;
     const SEGMENTS = 16;
     const RINGS = 16;
