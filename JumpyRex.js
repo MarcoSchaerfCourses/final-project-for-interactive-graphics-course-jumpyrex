@@ -415,7 +415,7 @@ const birdMaterial =
 const cloudMaterial =
     new THREE.MeshLambertMaterial({color: "white"});
 
-const peckerMaterial =
+const beakMaterial =
     new THREE.MeshLambertMaterial({color: "orange"});
 
 function deg2rad(deg){
@@ -1135,20 +1135,20 @@ function initBird(){
     eye_l.position.y = +2;
     eye_l.position.z = -5;
 
-    var pecker = new THREE.Mesh(
+    var beak = new THREE.Mesh(
 
         new THREE.BoxGeometry(
             18,
             3,
             10),
 
-        peckerMaterial);
+        beakMaterial);
 
     // Move the Sphere back in Z so we
     // can see it.
-    head.add(pecker);
-    pecker.position.x = -10;
-    pecker.position.y = -3;
+    head.add(beak);
+    beak.position.x = -10;
+    beak.position.y = -3;
 
     var tail = new THREE.Mesh(
 
@@ -1202,7 +1202,7 @@ function initBird(){
     // collidableMeshList = [cactus];
 }
 
-function updateCactusPosition() {
+function updateObstaclePosition() {
     // cactus.position.x -= 3;
     // if(cactus.position.x < -512){
     //     cactus.position.x = 512;
@@ -1316,7 +1316,7 @@ function update () {
         move_left_leg_phase2();
         move_right_arm();
         move_left_arm();
-        updateCactusPosition();
+        updateObstaclePosition();
         updateCloud1Position();
         updateBirdWingsMovement();
         collision();
