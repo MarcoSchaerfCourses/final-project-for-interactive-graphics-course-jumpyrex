@@ -511,8 +511,10 @@ function initRex(){
     // tailGroup.add(back);
     back.add( createTailGroup(RADIUS) );
 
-    collidableMeshList = [bosom, chest, head, back, tail1, tail2, left_upper_arm, left_lower_arm, right_upper_arm, right_lower_arm, left_lower_leg, left_mean_leg, left_upper_leg, right_lower_leg, right_mean_leg, right_upper_leg, left_foot, right_foot];
-
+    //[bosom, chest, head, back, tail1, tail2, left_upper_arm, left_lower_arm, right_upper_arm, right_lower_arm, left_lower_leg, left_mean_leg, left_upper_leg, right_lower_leg, right_mean_leg, right_upper_leg, left_foot, right_foot];
+	// non serve la lista, basta settare true sul intersectObjects
+	collidableMeshList = [bosom];
+	
     // bosom.add(group);
 
 
