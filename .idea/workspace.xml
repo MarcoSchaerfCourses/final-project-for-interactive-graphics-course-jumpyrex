@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df136d01-1aa8-4966-b1c6-cc40d93ebca3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textures/Jellyfish.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textures/desert.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textures/deserthd.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/textures/reptile_skin.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JumpyRex.js" afterPath="$PROJECT_DIR$/JumpyRex.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="159" column="96" lean-forward="false" selection-start-line="159" selection-start-column="96" selection-end-line="159" selection-end-column="96" />
+            <state relative-caret-position="380">
+              <caret line="149" column="55" lean-forward="false" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="55" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -41,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JumpyRex.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JumpyRex.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JumpyRex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="427" column="80" lean-forward="false" selection-start-line="427" selection-start-column="80" selection-end-line="427" selection-end-column="80" />
+            <state relative-caret-position="1401">
+              <caret line="424" column="9" lean-forward="false" selection-start-line="424" selection-start-column="9" selection-end-line="424" selection-end-column="9" />
               <folding>
                 <element signature="n#!!block;n#initSun#0" expanded="false" />
                 <element signature="n#!!block;n#initCloud#0" expanded="false" />
@@ -60,13 +54,10 @@
                 <element signature="n#!!block;n#deg2rad#0" expanded="false" />
                 <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
                 <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-                <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
                 <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
                 <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-                <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
                 <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
                 <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-                <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
                 <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
                 <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
                 <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -107,6 +98,7 @@
       <find>birdMaterial</find>
       <find>menu</find>
       <find>points:</find>
+      <find>update</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -210,16 +202,19 @@
       <workItem from="1535381651127" duration="2798000" />
       <workItem from="1535530493347" duration="1429000" />
       <workItem from="1535618352300" duration="52000" />
-      <workItem from="1535618845032" duration="1705000" />
+      <workItem from="1535618845032" duration="3242000" />
+      <workItem from="1536835404662" duration="1198000" />
+      <workItem from="1537349781459" duration="1131000" />
+      <workItem from="1537353181013" duration="1957000" />
+      <workItem from="1537779160211" duration="2890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98431000" />
+    <option name="totallyTimeSpent" value="107144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -252,48 +247,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JumpyRex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16558">
-          <caret line="974" column="26" lean-forward="false" selection-start-line="974" selection-start-column="26" selection-end-line="974" selection-end-column="26" />
-          <folding>
-            <element signature="n#!!block;n#initSun#0" expanded="false" />
-            <element signature="n#!!block;n#initCloud#0" expanded="false" />
-            <element signature="n#!!block;n#go2Menu#0" expanded="false" />
-            <element signature="n#!!block;n#on#0" expanded="false" />
-            <element signature="n#!!block;n#destroyScene#0" expanded="false" />
-            <element signature="n#!!block;n#off#0" expanded="false" />
-            <element signature="n#!!block;n#initBooleans#0" expanded="false" />
-            <element signature="n#!!block;n#initPtsCount#0" expanded="false" />
-            <element signature="n#!!block;n#erasePts#0" expanded="false" />
-            <element signature="n#!!block;n#initScene#0" expanded="false" />
-            <element signature="n#!!block;n#deg2rad#0" expanded="false" />
-            <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
-            <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
-            <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
-            <element signature="n#!!block;n#move_left_arm#0" expanded="false" />
-            <element signature="n#!!block;n#initLight#0" expanded="false" />
-            <element signature="n#!!block;n#initCactus#0" expanded="false" />
-            <element signature="n#!!block;n#initBird#0" expanded="false" />
-            <element signature="n#!!block;n#updateCactusPosition#0" expanded="false" />
-            <element signature="n#!!block;n#updateCloud1Position#0" expanded="false" />
-            <element signature="n#!!block;n#collision#0" expanded="false" />
-            <element signature="e#35631#35803#0" expanded="false" />
-            <element signature="n#!!block;n#rotateAroundObjectAxis#0" expanded="false" />
-            <element signature="n#!!block;n#rotateAroundWorldAxis#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
@@ -329,13 +282,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -388,13 +338,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -447,13 +394,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -506,13 +450,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -565,13 +506,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -624,13 +562,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -683,13 +618,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -742,13 +674,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -801,13 +730,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -860,13 +786,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -919,13 +842,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -978,13 +898,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1037,13 +954,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1096,13 +1010,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1155,13 +1066,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1214,13 +1122,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1273,13 +1178,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1332,13 +1234,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1391,13 +1290,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1450,13 +1346,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1509,13 +1402,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1568,13 +1458,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1618,27 +1505,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/HTML5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="159" column="96" lean-forward="false" selection-start-line="159" selection-start-column="96" selection-end-line="159" selection-end-column="96" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="202">
+          <caret line="1403" column="0" lean-forward="false" selection-start-line="1403" selection-start-column="0" selection-end-line="1403" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JumpyRex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="427" column="80" lean-forward="false" selection-start-line="427" selection-start-column="80" selection-end-line="427" selection-end-column="80" />
+        <state relative-caret-position="1401">
+          <caret line="424" column="9" lean-forward="false" selection-start-line="424" selection-start-column="9" selection-end-line="424" selection-end-column="9" />
           <folding>
             <element signature="n#!!block;n#initSun#0" expanded="false" />
             <element signature="n#!!block;n#initCloud#0" expanded="false" />
@@ -1653,13 +1530,10 @@
             <element signature="n#!!block;n#deg2rad#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimationTimer#0" expanded="false" />
             <element signature="n#!!block;n#initHeadAnimation#0" expanded="false" />
-            <element signature="n#!!block;n#createTailGroup#0" expanded="false" />
             <element signature="n#!!block;n#createRightArmGroup#0" expanded="false" />
             <element signature="n#!!block;n#createLeftArmGroup#0" expanded="false" />
-            <element signature="n#!!block;n#move_right_leg_phase2#0" expanded="false" />
             <element signature="n#!!block;n#createLeftLegGroup#0" expanded="false" />
             <element signature="n#!!block;n#move_left_leg_phase2#0" expanded="false" />
-            <element signature="n#!!block;n#updateRexJumpingState#0" expanded="false" />
             <element signature="n#!!block;n#updateRexTailMovement#0" expanded="false" />
             <element signature="n#!!block;n#updateRexHorizontalMovement#0" expanded="false" />
             <element signature="n#!!block;n#move_right_arm#0" expanded="false" />
@@ -1673,6 +1547,23 @@
             <element signature="e#35631#35803#0" expanded="false" />
             <element signature="n#!!block;n#rotateAroundObjectAxis#0" expanded="false" />
             <element signature="n#!!block;n#rotateAroundWorldAxis#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="149" column="55" lean-forward="false" selection-start-line="149" selection-start-column="44" selection-end-line="149" selection-end-column="55" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
